@@ -7,8 +7,8 @@ public class CollisionTransition : MonoBehaviour
     public Collider2D CollisionObject;
     public bool SolidInWinter;
     public WorldTransition CurrentSeason;
+    
     public List<Collider2D> inside;
-
     private ContactFilter2D ContactFilter;
 
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class CollisionTransition : MonoBehaviour
     {
         if(SolidInWinter == CurrentSeason.Summer)
         {
+            //Lets all of the objects inside move when the object is not solid
             foreach (Collider2D i in inside)
             {
                 i.attachedRigidbody.bodyType = RigidbodyType2D.Dynamic;
@@ -32,6 +33,7 @@ public class CollisionTransition : MonoBehaviour
         }
         else
         {
+            //disables all movement on objects inside when solid
             foreach(Collider2D i in inside)
             {
                i.attachedRigidbody.bodyType=RigidbodyType2D.Static;
