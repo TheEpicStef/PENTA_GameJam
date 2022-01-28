@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     // Set to stop jumping when in water.
     public bool inWater = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         // Get the Players Rigidbody for Movement
@@ -43,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        inWater = false;
     }
 
     // Handles the Movement
