@@ -1,42 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WorldTransition : MonoBehaviour
 {
-    private bool m_dragging;
-    private float m_timeElapsed;
-
     public bool Summer;
     public Transform MaskTransform;
-    public float m_transitionTime = 1.0f;
+    public float transitionDuration = 1.0f;
+    public float transitionTime = 1.0f;
+    public Slider ChangeTimer;
+
+    private bool m_dragging;
+    private float m_timeElapsed;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        ChangeTimer.maxValue = transitionTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space"))
+        ChangeTimer.value += Time.deltaTime;
+
+        if (ChangeTimer.value == ChangeTimer.maxValue)
         {
+            ChangeTimer.value = 0;
             SwapScene();
         }
 
         if(m_dragging)
         {
             m_timeElapsed += Time.deltaTime;
-            if(m_timeElapsed <= m_transitionTime )
+            if(m_timeElapsed <= transitionDuration)
             {
                 if(Summer)
                 {
-                    MaskTransform.position = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/m_transitionTime), 0, 1);
+                    MaskTransform.position = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/ transitionDuration), 0, 1);
                 }
                 else
                 {
-                    MaskTransform.position = new Vector3(Mathf.Lerp(0, MaskTransform.localScale.x, m_timeElapsed / m_transitionTime), 0, 1);
+                    MaskTransform.position = new Vector3(Mathf.Lerp(0, MaskTransform.localScale.x, m_timeElapsed / transitionDuration), 0, 1);
                 } 
             }
             else
