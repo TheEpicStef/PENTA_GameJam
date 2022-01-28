@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 76186089}
   - component: {fileID: 76186088}
   - component: {fileID: 76186087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 619370554}
   - component: {fileID: 619370553}
   - component: {fileID: 619370552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: swapping floor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1131,7 +1131,7 @@ GameObject:
   - component: {fileID: 1565389718}
   - component: {fileID: 1565389717}
   - component: {fileID: 1565389720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FreezingWater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 1981064790}
   - component: {fileID: 1981064792}
   - component: {fileID: 1981064791}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'swapping floor '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

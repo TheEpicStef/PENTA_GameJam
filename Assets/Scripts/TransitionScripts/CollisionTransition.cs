@@ -20,10 +20,12 @@ public class CollisionTransition : MonoBehaviour
         if(SolidInWinter == CurrentSeason.Summer)
         {
             CollisionObject.isTrigger = true;
+            gameObject.layer = 0;
         }
         else
         {
             CollisionObject.isTrigger = false;
+            gameObject.layer = 6;
         }
     }
 }
