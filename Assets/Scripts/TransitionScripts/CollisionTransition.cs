@@ -26,6 +26,11 @@ public class CollisionTransition : MonoBehaviour
             foreach (Collider2D i in inside)
             {
                 i.attachedRigidbody.bodyType = RigidbodyType2D.Dynamic;
+                PlayerController isPlayer = i.gameObject.GetComponent<PlayerController>();
+                if (isPlayer != null)
+                {
+                    isPlayer.inWater = true;
+                }
             }
             CollisionObject.isTrigger = true;
             gameObject.layer = 0;
@@ -36,7 +41,12 @@ public class CollisionTransition : MonoBehaviour
             //disables all movement on objects inside when solid
             foreach(Collider2D i in inside)
             {
-               i.attachedRigidbody.bodyType=RigidbodyType2D.Static;
+                i.attachedRigidbody.bodyType=RigidbodyType2D.Static;
+                PlayerController isPlayer = i.gameObject.GetComponent<PlayerController>();
+                if(isPlayer != null)
+                {
+                    isPlayer.inWater = true;
+                }
             }
             CollisionObject.isTrigger = false;
             gameObject.layer = 6;

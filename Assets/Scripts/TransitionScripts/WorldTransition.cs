@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class WorldTransition : MonoBehaviour
 {
     public bool summer;
-    public Transform MaskTransform;
+    public RectTransform MaskTransform;
     public float transitionDuration = 1.0f;
+    public int beatsPerSeason;
     public int musicTempo = 115;
     public Slider changeTimer;
-    public AudioSource backgroundMusic;
 
     private float m_timer;
     private bool m_dragging;
@@ -19,7 +19,7 @@ public class WorldTransition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        changeTimer.maxValue = 4.0f / ((float)musicTempo/60.0f);
+        changeTimer.maxValue = (float)beatsPerSeason / ((float)musicTempo/60.0f);
 
     }
 
@@ -36,7 +36,7 @@ public class WorldTransition : MonoBehaviour
         }
         else
         {
-            changeTimer.value =Mathf.Floor( m_timer / (60.0f / musicTempo)) * 4 / 3*(60.0f / musicTempo);
+            changeTimer.value =Mathf.Floor( m_timer / (60.0f / musicTempo)) * beatsPerSeason / (beatsPerSeason -1)* (60.0f / musicTempo);
         }
 
         if(m_dragging)

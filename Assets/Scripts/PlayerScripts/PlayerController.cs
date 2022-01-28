@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        inWater = false;
     }
 
     // Handles the Movement
