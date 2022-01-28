@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class WorldTransition : MonoBehaviour
 {
-    public bool m_dragOn;
-    public bool m_dragging;
-    public float m_timeElapsed;
+    private bool m_dragging;
+    private float m_timeElapsed;
 
+    public bool Summer;
     public Transform MaskTransform;
     public float m_transitionTime = 1.0f;
 
@@ -30,7 +30,7 @@ public class WorldTransition : MonoBehaviour
             m_timeElapsed += Time.deltaTime;
             if(m_timeElapsed <= m_transitionTime )
             {
-                if(m_dragOn)
+                if(Summer)
                 {
                     MaskTransform.position = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/m_transitionTime), 0, 1);
                 }
@@ -41,7 +41,7 @@ public class WorldTransition : MonoBehaviour
             }
             else
             {
-                if (m_dragOn)
+                if (Summer)
                 {
                     MaskTransform.position = new Vector3( 0, 0, 1);
                 }
@@ -62,7 +62,7 @@ public class WorldTransition : MonoBehaviour
         {
             //toggles between dragging on or off
             m_dragging = true;
-            m_dragOn = !m_dragOn;
+            Summer = !Summer;
             m_timeElapsed = 0.0f;
         }
     }
