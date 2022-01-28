@@ -5,30 +5,38 @@ using UnityEngine.UI;
 
 public class WorldTransition : MonoBehaviour
 {
-    public bool Summer;
+    public bool summer;
     public Transform MaskTransform;
     public float transitionDuration = 1.0f;
-    public float transitionTime = 1.0f;
-    public Slider ChangeTimer;
+    public int musicTempo = 115;
+    public Slider changeTimer;
+    public AudioSource backgroundMusic;
 
+    private float m_timer;
     private bool m_dragging;
     private float m_timeElapsed;
 
     // Start is called before the first frame update
     void Start()
     {
-        ChangeTimer.maxValue = transitionTime;
+        changeTimer.maxValue = 4.0f / ((float)musicTempo/60.0f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        ChangeTimer.value += Time.deltaTime;
+        m_timer = m_timer + Time.deltaTime;
 
-        if (ChangeTimer.value == ChangeTimer.maxValue)
+        if (m_timer  >= changeTimer.maxValue)
         {
-            ChangeTimer.value = 0;
+            m_timer -= changeTimer.maxValue;
+            changeTimer.value = m_timer;
             SwapScene();
+        }
+        else
+        {
+            changeTimer.value =Mathf.Floor( m_timer / (60.0f / musicTempo)) * 4 / 3*(60.0f / musicTempo);
         }
 
         if(m_dragging)
@@ -36,7 +44,7 @@ public class WorldTransition : MonoBehaviour
             m_timeElapsed += Time.deltaTime;
             if(m_timeElapsed <= transitionDuration)
             {
-                if(Summer)
+                if(summer)
                 {
                     MaskTransform.position = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/ transitionDuration), 0, 1);
                 }
@@ -47,7 +55,7 @@ public class WorldTransition : MonoBehaviour
             }
             else
             {
-                if (Summer)
+                if (summer)
                 {
                     MaskTransform.position = new Vector3( 0, 0, 1);
                 }
@@ -68,7 +76,7 @@ public class WorldTransition : MonoBehaviour
         {
             //toggles between dragging on or off
             m_dragging = true;
-            Summer = !Summer;
+            summer = !summer;
             m_timeElapsed = 0.0f;
         }
     }

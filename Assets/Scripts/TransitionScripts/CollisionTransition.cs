@@ -20,7 +20,7 @@ public class CollisionTransition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(SolidInWinter == CurrentSeason.Summer)
+        if(SolidInWinter == CurrentSeason.summer)
         {
             //Lets all of the objects inside move when the object is not solid
             foreach (Collider2D i in inside)
