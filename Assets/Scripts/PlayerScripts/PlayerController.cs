@@ -6,13 +6,28 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D playerBody;
 
-    public float moveSpeed = 2.5f;
+    [Header("Movement")]
+    // The Base Movement Speed
+    public float speed = 0.0f;
+    // The Max Speed you can achieve
+    public float maxSpeed = 4.0f;
+    // The Acceleration Speed
+    public float accelSpeed = 5.0f;
+    // The Decceleration Speed
+    public float deccelSpeed = 10.0f;
+    // Friction Multiplier
+    public float frictionMultiplier = 1.0f;
 
+    // The Height to jump
     public float jumpSpeed = 5.0f;
 
+    [Header("Ground Check")]
     public bool isGrounded;
     public Transform groundCheck;
     public LayerMask groundLayer;
+
+    // Set to stop jumping when in water.
+    public bool inWater = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,16 +48,37 @@ public class PlayerController : MonoBehaviour
     // Handles the Movement
     void Movement()
     {
-        // Horizontal Movement
-        float Horizontal = 0;
-        if (Input.GetKey(KeyCode.A))
+        // Handle Left and Right input with acceleration
+        // Setup to just stop if both keys are pressed
+        if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
-            Horizontal += -1;
+            speed = speed - (accelSpeed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
-            Horizontal += 1;
+            speed = speed + (accelSpeed * Time.deltaTime);
         }
+        // Deceleration system
+        // Will decelerate towards 0. Friction Multiplier can be changed to swap how effective friction is.
+        else
+        {
+            // Handle Deceleration
+            if (speed > (deccelSpeed * Time.deltaTime))
+            {
+                speed = speed - (deccelSpeed * frictionMultiplier * Time.deltaTime);
+            }
+            else if (speed < (-deccelSpeed * Time.deltaTime))
+            {
+                speed = speed + (deccelSpeed * frictionMultiplier * Time.deltaTime);
+            }
+            else
+            {
+                speed = 0;
+            }
+        }
+
+        // Clamp the movement between the max values
+        speed = Mathf.Clamp(speed, -maxSpeed, maxSpeed);
 
         // Vertical Movement
         if (Input.GetKey(KeyCode.W))
@@ -50,16 +86,14 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
 
-        // ADD FRICTION TO HORIZONTAL MOVEMENT
-
-        playerBody.velocity = new Vector2(Horizontal * moveSpeed, playerBody.velocity.y);
+        playerBody.velocity = new Vector2(speed, playerBody.velocity.y);
     }
 
     // Very Basic Jump Function
     // Jumps if the player is grounded
     void Jump()
     {
-        if (isGrounded)
+        if (isGrounded && !inWater)
         {
             playerBody.velocity = Vector2.up * jumpSpeed;
         }
