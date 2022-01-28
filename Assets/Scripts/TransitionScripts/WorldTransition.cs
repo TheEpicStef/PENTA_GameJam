@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class WorldTransition : MonoBehaviour
 {
     public bool summer;
+    public Transform Player;
     public RectTransform MaskTransform;
     public float transitionDuration = 1.0f;
     public int beatsPerSeason;
@@ -46,22 +47,22 @@ public class WorldTransition : MonoBehaviour
             {
                 if(summer)
                 {
-                    MaskTransform.position = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/ transitionDuration), 0, 1);
+                    MaskTransform.localPosition = new Vector3(Mathf.Lerp(-MaskTransform.localScale.x,0,m_timeElapsed/ transitionDuration), 0, 1);
                 }
                 else
                 {
-                    MaskTransform.position = new Vector3(Mathf.Lerp(0, MaskTransform.localScale.x, m_timeElapsed / transitionDuration), 0, 1);
+                    MaskTransform.localPosition = new Vector3(Mathf.Lerp(0, MaskTransform.localScale.x, m_timeElapsed / transitionDuration), 0, 1);
                 } 
             }
             else
             {
                 if (summer)
                 {
-                    MaskTransform.position = new Vector3( 0, 0, 1);
+                    MaskTransform.localPosition = new Vector3( 0, 0, 1);
                 }
                 else
                 {
-                    MaskTransform.position = new Vector3( MaskTransform.localScale.x, 0, 1);
+                    MaskTransform.localPosition = new Vector3( MaskTransform.localScale.x, 0, 1);
                 }
                 m_dragging = false;
             }
