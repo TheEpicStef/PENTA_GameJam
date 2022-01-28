@@ -10,19 +10,15 @@ public class Door : MonoBehaviour
 
     public Collider2D doorCollider;
 
-    // Start is called before the first frame update
     void Awake()
     {
         doorCollider = GetComponent<Collider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OpenDoor()
     {
-        if (opened)
-        {
-            doorCollider.enabled = false;
-        }
+        doorCollider.enabled = false;
+        opened = true;
     }
 
 }

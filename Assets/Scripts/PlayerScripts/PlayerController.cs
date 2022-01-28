@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     // Set to stop jumping when in water.
     public bool inWater = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         // Get the Players Rigidbody for Movement
