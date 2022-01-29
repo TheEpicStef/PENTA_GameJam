@@ -17,6 +17,8 @@ public class EndLevel : MonoBehaviour
     public AudioSource playerSource;
     public AudioClip playerWin;
 
+    public GameObject transitionAudioThingy;
+
     void Awake()
     {
         endTrigger = GetComponent<Collider2D>();
@@ -35,10 +37,19 @@ public class EndLevel : MonoBehaviour
             if (!hasWon)
             {
                 birdSource.PlayOneShot(winAudio, 10.0f);
-                playerSource.PlayOneShot(playerWin, 7.0f);
                 hasWon = true;
+                StartCoroutine(transitionDelay());//transition.DoTransition(nextScene);
             }
-            transition.DoTransition(nextScene);
         }
+    }
+
+    IEnumerator transitionDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        playerSource.PlayOneShot(playerWin, 7.0f);
+        yield return new WaitForSeconds(1.5f);
+        Instantiate(transitionAudioThingy);
+        yield return new WaitForSeconds(0.4f);
+        transition.DoTransition(nextScene);
     }
 }

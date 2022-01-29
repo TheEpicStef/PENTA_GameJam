@@ -104,6 +104,7 @@ MonoBehaviour:
   winAudio: {fileID: 8300000, guid: a13c8b19c87893641ba906ce6902e327, type: 3}
   playerSource: {fileID: 0}
   playerWin: {fileID: 8300000, guid: ad64bc9bddbb5e040b57ec624dd93875, type: 3}
+  transitionAudioThingy: {fileID: 2669260507648421532, guid: c390496cf415bb34dbad4bf94a08247b, type: 3}
 --- !u!61 &3026602731715213142
 BoxCollider2D:
   m_ObjectHideFlags: 0
