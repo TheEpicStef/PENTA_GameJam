@@ -124,7 +124,7 @@ MonoBehaviour:
   playerSprite: {fileID: 0}
   playerAnimator: {fileID: 0}
   speed: 0
-  maxSpeed: 4
+  maxSpeed: 3
   accelSpeed: 16.48
   deccelSpeed: 10
   deccelMultiplier: 1

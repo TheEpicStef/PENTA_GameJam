@@ -101,3 +101,5 @@ MonoBehaviour:
       tileB: {fileID: 11400000, guid: c2ef3732882fa524ca1deb3f2522a1f6, type: 2}
     - tileA: {fileID: 11400000, guid: 87cd1aa4dad16a14e9ddfe509e2c2181, type: 2}
       tileB: {fileID: 11400000, guid: 230de9cdc937ff74a8df05be53ed10db, type: 2}
+    - tileA: {fileID: 11400000, guid: e1ca774194aac324788812d230517dbf, type: 2}
+      tileB: {fileID: 11400000, guid: 1227f49ef0ac3c24aaf7d8a0bcc240d4, type: 2}
