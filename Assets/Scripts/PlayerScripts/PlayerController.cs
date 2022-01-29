@@ -119,13 +119,6 @@ public class PlayerController : MonoBehaviour
 
     void AnimationHandler()
     {
-        if (speed != 0)
-        {
-            playerAnimator.speed = 0;
-        }
-        else
-        {
-            playerAnimator.speed = 1;
-        }
+        playerAnimator.SetFloat("Speed", Mathf.Abs(speed));
     }
 }
