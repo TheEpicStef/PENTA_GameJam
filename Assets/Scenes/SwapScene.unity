@@ -3243,6 +3243,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 170212208580364979, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 2222415653945851896, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -3302,6 +3326,10 @@ PrefabInstance:
     - target: {fileID: 7140746452737939980, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: musicTempo
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140746452737939980, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: beatsPerSeason
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7876645136616135361, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_AnchorMax.y
