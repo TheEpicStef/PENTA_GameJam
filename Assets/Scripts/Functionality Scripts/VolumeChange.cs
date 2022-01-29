@@ -41,6 +41,5 @@ public class VolumeChange : MonoBehaviour
         mixer.GetFloat(_name, out value);
         value = Mathf.Pow(10, (value / 20));
         _slider.value = value;
-        Debug.Log(value);
     }
 }
