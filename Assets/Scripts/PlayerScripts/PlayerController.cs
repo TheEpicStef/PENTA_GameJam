@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     // The Base Movement Speed
     public float speed = 0.0f;
     // The Max Speed you can achieve
-    public float maxSpeed = 4.0f;
+    public float maxSpeed = 3.0f;
     // The Acceleration Speed
     public float accelSpeed = 5.0f;
     // The Decceleration Speed
@@ -198,10 +198,12 @@ public class PlayerController : MonoBehaviour
             if (groundCollision.tag == "Ice")
             {
                 deccelMultiplier = 0.2f;
+                maxSpeed = 6.0f;
             }
             else
             {
                 deccelMultiplier = 1.0f;
+                maxSpeed = 3.0f;
             }
         }
     }
