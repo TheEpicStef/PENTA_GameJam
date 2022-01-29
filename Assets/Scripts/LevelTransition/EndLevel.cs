@@ -19,6 +19,9 @@ public class EndLevel : MonoBehaviour
     // At the moment transition is instant. Added an animation and delay will make it feel nicer.
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(nextScene);
+        if (collision.GetComponent<PlayerController>() != null)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
     }
 }

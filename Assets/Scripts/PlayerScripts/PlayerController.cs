@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 
     public SpriteRenderer playerSprite;
 
+    public Animator playerAnimator;
+
     [Header("Movement")]
     // The Base Movement Speed
     public float speed = 0.0f;
@@ -37,12 +39,16 @@ public class PlayerController : MonoBehaviour
         playerBody = this.GetComponent<Rigidbody2D>();
 
         playerSprite = this.GetComponent<SpriteRenderer>();
+
+        playerAnimator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Movement();
+
+        AnimationHandler();
 
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
@@ -108,6 +114,18 @@ public class PlayerController : MonoBehaviour
         if (isGrounded && !inWater)
         {
             playerBody.velocity = Vector2.up * jumpSpeed;
+        }
+    }
+
+    void AnimationHandler()
+    {
+        if (speed != 0)
+        {
+            playerAnimator.speed = 0;
+        }
+        else
+        {
+            playerAnimator.speed = 1;
         }
     }
 }
