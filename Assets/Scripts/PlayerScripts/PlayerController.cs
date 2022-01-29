@@ -41,10 +41,20 @@ public class PlayerController : MonoBehaviour
     // Set to stop jumping when in water.
     public bool inWater = false;
 
+    public bool isFrozen = false;
+
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip jumpAudio;
     public AudioClip jumpAudio2;
+    public AudioClip landAudio;
+
+    public AudioClip[] footstepAudio;
+
+    public AudioClip freezeAudio;
+    public AudioClip unfreezeAudio;
+
+
 
     void Start()
     {
@@ -119,7 +129,7 @@ public class PlayerController : MonoBehaviour
         speed = Mathf.Clamp(speed, -maxSpeed, maxSpeed);
 
         // Vertical Movement
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             Jump();
         }
@@ -147,7 +157,7 @@ public class PlayerController : MonoBehaviour
             else
             {
                 jumpTimer = 0.0f;
-                audioSource.PlayOneShot(jumpAudio2);
+                audioSource.PlayOneShot(jumpAudio2, 1.5f);
             }
         }
     }
@@ -193,6 +203,35 @@ public class PlayerController : MonoBehaviour
             {
                 deccelMultiplier = 1.0f;
             }
+        }
+    }
+
+    public void playSoundLand()
+    {
+        audioSource.PlayOneShot(landAudio, 10f);
+    }
+
+
+    public void playRandomFootstepSound()
+    {
+        audioSource.PlayOneShot(footstepAudio[Random.Range(0, footstepAudio.Length - 1)], 2f);
+    }
+
+    public void Freeze()
+    {
+        if (!isFrozen)
+        {
+            audioSource.PlayOneShot(freezeAudio, 3f);
+            isFrozen = true;
+        }
+    }
+
+    public void UnFreeze()
+    {
+        if (isFrozen)
+        {
+            audioSource.PlayOneShot(unfreezeAudio, 3f);
+            isFrozen = false;
         }
     }
 }
