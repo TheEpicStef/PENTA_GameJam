@@ -27,20 +27,42 @@ public class WorldTransition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_timer = m_timer + Time.deltaTime;
-
-        if (m_timer  >= changeTimer.maxValue)
+        if(!summer)
         {
-            m_timer -= changeTimer.maxValue;
-            changeTimer.value = m_timer;
-            SwapScene();
+            //increasing the beat
+            m_timer += Time.deltaTime;
+
+            if (m_timer >= changeTimer.maxValue)
+            {
+               // m_timer -= changeTimer.maxValue;
+                changeTimer.value = m_timer;
+                SwapScene();
+            }
+            else
+            {
+                changeTimer.value = Mathf.Floor(m_timer / (60.0f / musicTempo)) * beatsPerSeason / (beatsPerSeason ) * (60.0f / musicTempo);
+            }
         }
         else
         {
-            changeTimer.value =Mathf.Floor( m_timer / (60.0f / musicTempo)) * beatsPerSeason / (beatsPerSeason -1)* (60.0f / musicTempo);
+            //decreasing the beat
+            m_timer -= Time.deltaTime;
+
+            if (m_timer <0 )
+            {
+               // m_timer -= changeTimer.maxValue;
+                changeTimer.value = m_timer;
+                SwapScene();
+            }
+            else
+            {
+                changeTimer.value = Mathf.Ceil(m_timer / (60.0f / musicTempo)) * beatsPerSeason / (beatsPerSeason) * (60.0f / musicTempo);
+            }
         }
 
-        if(m_dragging)
+        
+
+        if (m_dragging)
         {
             m_timeElapsed += Time.deltaTime;
             if(m_timeElapsed <= transitionDuration)
