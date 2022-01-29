@@ -46,7 +46,7 @@ public class EndLevel : MonoBehaviour
     IEnumerator transitionDelay()
     {
         yield return new WaitForSeconds(0.5f);
-        playerSource.PlayOneShot(playerWin, 7.0f);
+        playerSource.PlayOneShot(playerWin);
         yield return new WaitForSeconds(1.5f);
         Instantiate(transitionAudioThingy);
         yield return new WaitForSeconds(0.4f);
