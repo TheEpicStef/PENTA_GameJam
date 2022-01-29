@@ -15,7 +15,7 @@ public class CollisionTransition : MonoBehaviour
     void Start()
     {
         ContactFilter.SetLayerMask(1);
-        CurrentSeason = GameObject.Find("Player").GetComponentInChildren<WorldTransition>();
+        CurrentSeason = GameObject.Find("Player(AnimAdded)").GetComponentInChildren<WorldTransition>();
     }
 
     // Update is called once per frame
