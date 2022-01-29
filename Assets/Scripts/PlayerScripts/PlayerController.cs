@@ -6,6 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D playerBody;
 
+    public SpriteRenderer playerSprite;
+
+    public Animator playerAnimator;
+
     [Header("Movement")]
     // The Base Movement Speed
     public float speed = 0.0f;
@@ -15,8 +19,12 @@ public class PlayerController : MonoBehaviour
     public float accelSpeed = 5.0f;
     // The Decceleration Speed
     public float deccelSpeed = 10.0f;
-    // Friction Multiplier
-    public float frictionMultiplier = 1.0f;
+
+    [Header("Friction Settings")]
+    // Deccelleration Speed Multiplier
+    public float deccelMultiplier = 1.0f;
+    // 
+    public float accelMultiplier = 1.0f;
 
     // The Height to jump
     public float jumpSpeed = 5.0f;
@@ -33,30 +41,48 @@ public class PlayerController : MonoBehaviour
     {
         // Get the Players Rigidbody for Movement
         playerBody = this.GetComponent<Rigidbody2D>();
+
+        playerSprite = this.GetComponent<SpriteRenderer>();
+
+        playerAnimator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        FrictionChange();
         Movement();
+        AnimationHandler();
 
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         inWater = false;
+
+        
+    }
+
+    // Flips the Sprite based on direction of momentum.
+    void DirectionUpdate()
+    {
+        playerSprite.flipX = speed < 0;
     }
 
     // Handles the Movement
     void Movement()
     {
+        if (playerBody.bodyType == RigidbodyType2D.Static) return;
+
         // Handle Left and Right input with acceleration
         // Setup to just stop if both keys are pressed
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
-            speed = speed - (accelSpeed * Time.deltaTime);
+            speed = speed - (accelSpeed * accelMultiplier * Time.deltaTime);
+            DirectionUpdate();
         }
         else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
-            speed = speed + (accelSpeed * Time.deltaTime);
+            speed = speed + (accelSpeed * accelMultiplier * Time.deltaTime);
+            DirectionUpdate();
         }
         // Deceleration system
         // Will decelerate towards 0. Friction Multiplier can be changed to swap how effective friction is.
@@ -65,11 +91,11 @@ public class PlayerController : MonoBehaviour
             // Handle Deceleration
             if (speed > (deccelSpeed * Time.deltaTime))
             {
-                speed = speed - (deccelSpeed * frictionMultiplier * Time.deltaTime);
+                speed = speed - (deccelSpeed * deccelMultiplier * Time.deltaTime);
             }
             else if (speed < (-deccelSpeed * Time.deltaTime))
             {
-                speed = speed + (deccelSpeed * frictionMultiplier * Time.deltaTime);
+                speed = speed + (deccelSpeed * deccelMultiplier * Time.deltaTime);
             }
             else
             {
@@ -90,12 +116,56 @@ public class PlayerController : MonoBehaviour
     }
 
     // Very Basic Jump Function
-    // Jumps if the player is grounded
+    // Jumps if the player is grounded and not in water
     void Jump()
     {
-        if (isGrounded && !inWater)
+        if (isGrounded)
         {
-            playerBody.velocity = Vector2.up * jumpSpeed;
+            playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
+            playerAnimator.SetTrigger("Jump");
+        }
+    }
+    
+    void AnimationHandler()
+    {
+        if (playerBody.bodyType == RigidbodyType2D.Static)
+        {
+            playerAnimator.speed = 0;
+            return;
+        }
+        playerAnimator.speed = 1;
+        playerAnimator.SetFloat("Speed", Mathf.Abs(playerBody.velocity.x));
+    }
+
+    // Checks the ground type for friction changes
+    void FrictionChange()
+    {
+        Collider2D groundCollision = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        // Handles the Water acceleration multiplier
+        if (inWater)
+        {
+            accelMultiplier = 0.5f;
+        }
+        else
+        {
+            accelMultiplier = 1.0f;
+        }
+
+
+        if (!isGrounded)
+        {
+            deccelMultiplier = 0.5f;
+        }
+        else if (groundCollision != null)
+        {
+            if (groundCollision.tag == "Ice")
+            {
+                deccelMultiplier = 0.2f;
+            }
+            else
+            {
+                deccelMultiplier = 1.0f;
+            }
         }
     }
 }
