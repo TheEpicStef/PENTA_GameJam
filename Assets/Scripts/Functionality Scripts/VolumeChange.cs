@@ -8,17 +8,15 @@ public class VolumeChange : MonoBehaviour
 {
     public AudioMixer mixer;
 
-    public Slider volSlider;
+    public Slider masterSlider;
+    public Slider musicSlider;
+    public Slider sfxSlider;
 
     public void Update()
     {
-        //float value;
-        //mixer.GetFloat("musicVol", out value);
-        //value = Mathf.Pow(10, (value / 20));
-        //volSlider.value = value;
-        //Debug.Log(value);
-
-        //setSliderValue(volSlider, "musicVol");
+        setSliderValue(masterSlider, "masterVol");
+        setSliderValue(musicSlider, "musicVol");
+        setSliderValue(sfxSlider, "sfxVol");
     }
 
     public void SetMusicLevel(float _sliderValue)
@@ -38,6 +36,7 @@ public class VolumeChange : MonoBehaviour
 
     void setSliderValue(Slider _slider, string _name)
     {
+        if (_slider == null) return;
         float value;
         mixer.GetFloat(_name, out value);
         value = Mathf.Pow(10, (value / 20));

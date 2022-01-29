@@ -437,7 +437,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 1f14bc0e79deada4486b92adb5776b36, type: 2}
-  volSlider: {fileID: 0}
+  masterSlider: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
 --- !u!4 &1407175467
 Transform:
   m_ObjectHideFlags: 0
@@ -634,6 +636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1847340279, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 3178937647115529850, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

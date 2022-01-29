@@ -639,6 +639,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  jumpDelay: 2
+  jumpTimer: 0
   inWater: 0
   audioSource: {fileID: 0}
   jumpAudio: {fileID: 8300000, guid: 1ef921b3872364a41b1feaa8fc86a605, type: 3}
@@ -689,14 +691,14 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 1395482554195191853, guid: 1f14bc0e79deada4486b92adb5776b36, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1ef921b3872364a41b1feaa8fc86a605, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
