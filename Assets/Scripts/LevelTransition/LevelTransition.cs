@@ -11,6 +11,8 @@ public class LevelTransition : MonoBehaviour
 
     public bool startTransition = false;
 
+    public PauseGame pauseGame;
+
     // Public function to handle the transition
     public void DoTransition(string _levelName)
     {
@@ -33,4 +35,6 @@ public class LevelTransition : MonoBehaviour
 
         SceneManager.LoadScene(_levelName);
     }
+
+
 }
