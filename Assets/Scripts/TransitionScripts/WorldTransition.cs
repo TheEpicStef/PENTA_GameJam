@@ -22,7 +22,12 @@ public class WorldTransition : MonoBehaviour
     void Start()
     {
         changeTimer.maxValue = (float)beatsPerSeason / ((float)musicTempo/60.0f);
-
+        if(summer)
+        {
+            summer = !summer;
+            m_timer = changeTimer.maxValue;
+            SwapScene();
+        }
        // SwapScene();
     }
 
