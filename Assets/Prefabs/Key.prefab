@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KeyCollision: {fileID: 0}
-  DoorId: 1
+  DoorId: 0
 --- !u!58 &8356796331292487154
 CircleCollider2D:
   m_ObjectHideFlags: 0
