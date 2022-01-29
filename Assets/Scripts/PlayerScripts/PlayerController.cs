@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         inWater = false;
+
+        
     }
 
     // Flips the Sprite based on direction of momentum.
@@ -115,7 +117,7 @@ public class PlayerController : MonoBehaviour
     // Jumps if the player is grounded and not in water
     void Jump()
     {
-        if (isGrounded && !inWater)
+        if (isGrounded)
         {
             playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
         }
@@ -123,7 +125,13 @@ public class PlayerController : MonoBehaviour
     
     void AnimationHandler()
     {
-        playerAnimator.SetFloat("Speed", Mathf.Abs(speed));
+        playerAnimator.speed = playerBody.bodyType == RigidbodyType2D.Static? 0 : 1;
+        if (playerBody.bodyType == RigidbodyType2D.Static)
+        {
+            return;
+        }
+
+        playerAnimator.SetFloat("Speed", Mathf.Abs(playerBody.velocity.x));
     }
 
     // Checks the ground type for friction changes
@@ -133,6 +141,10 @@ public class PlayerController : MonoBehaviour
         if (inWater)
         {
             accelMultiplier = 0.5f;
+        }
+        else
+        {
+            accelMultiplier = 1.0f;
         }
         if (!isGrounded)
         {
