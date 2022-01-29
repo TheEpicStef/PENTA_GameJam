@@ -26,12 +26,15 @@ public class CollisionTransition : MonoBehaviour
             //Lets all of the objects inside move when the object is not solid
             foreach (Collider2D i in inside)
             {
-                i.attachedRigidbody.bodyType = RigidbodyType2D.Dynamic;
-                PlayerController isPlayer = i.gameObject.GetComponent<PlayerController>();
-                if (isPlayer != null)
-                {
-                    isPlayer.inWater = true;
-                    isPlayer.UnFreeze();
+                if(i != null)
+                { 
+                    i.attachedRigidbody.bodyType = RigidbodyType2D.Dynamic;
+                    PlayerController isPlayer = i.gameObject.GetComponent<PlayerController>();
+                    if (isPlayer != null)
+                    {
+                        isPlayer.inWater = true;
+                        isPlayer.UnFreeze();
+                    }
                 }
             }
             CollisionObject.isTrigger = true;
