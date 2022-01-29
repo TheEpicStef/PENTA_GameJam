@@ -754,7 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebad93749563ee741af0c87d99c9bdb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canPause: 1
+  canPause: 0
   transition: {fileID: 0}
   musicAudio: {fileID: 2957778578628550470}
   PauseMenu: {fileID: 1970379625610287867}

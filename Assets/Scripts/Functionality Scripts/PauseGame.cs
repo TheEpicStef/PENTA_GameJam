@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour
 {
-    public bool canPause = true;
+    public bool canPause = false;
     bool isPaused = false;
 
     public LevelTransition transition;
@@ -28,11 +28,13 @@ public class PauseGame : MonoBehaviour
             isPaused = !isPaused;
             if (isPaused)
             {
+                Cursor.visible = true;
                 PauseMenu.SetActive(true);
                 musicAudio.Pause();
             }
             else
             {
+                Cursor.visible = false;
                 PauseMenu.SetActive(false);
                 musicAudio.UnPause();
             }
