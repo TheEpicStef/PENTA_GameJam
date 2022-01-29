@@ -19,8 +19,12 @@ public class PlayerController : MonoBehaviour
     public float accelSpeed = 5.0f;
     // The Decceleration Speed
     public float deccelSpeed = 10.0f;
-    // Friction Multiplier
-    public float frictionMultiplier = 1.0f;
+
+    [Header("Friction Settings")]
+    // Deccelleration Speed Multiplier
+    public float deccelMultiplier = 1.0f;
+    // 
+    public float accelMultiplier = 1.0f;
 
     // The Height to jump
     public float jumpSpeed = 5.0f;
@@ -46,8 +50,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FrictionChange();
         Movement();
-
         AnimationHandler();
 
         // Check if the player is ground
@@ -68,12 +72,12 @@ public class PlayerController : MonoBehaviour
         // Setup to just stop if both keys are pressed
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
-            speed = speed - (accelSpeed * Time.deltaTime);
+            speed = speed - (accelSpeed * accelMultiplier * Time.deltaTime);
             DirectionUpdate();
         }
         else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
-            speed = speed + (accelSpeed * Time.deltaTime);
+            speed = speed + (accelSpeed * accelMultiplier * Time.deltaTime);
             DirectionUpdate();
         }
         // Deceleration system
@@ -83,11 +87,11 @@ public class PlayerController : MonoBehaviour
             // Handle Deceleration
             if (speed > (deccelSpeed * Time.deltaTime))
             {
-                speed = speed - (deccelSpeed * frictionMultiplier * Time.deltaTime);
+                speed = speed - (deccelSpeed * deccelMultiplier * Time.deltaTime);
             }
             else if (speed < (-deccelSpeed * Time.deltaTime))
             {
-                speed = speed + (deccelSpeed * frictionMultiplier * Time.deltaTime);
+                speed = speed + (deccelSpeed * deccelMultiplier * Time.deltaTime);
             }
             else
             {
@@ -113,12 +117,37 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded && !inWater)
         {
-            playerBody.velocity = Vector2.up * jumpSpeed;
+            playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
         }
     }
-
+    
     void AnimationHandler()
     {
         playerAnimator.SetFloat("Speed", Mathf.Abs(speed));
+    }
+
+    // Checks the ground type for friction changes
+    void FrictionChange()
+    {
+        Collider2D groundCollision = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        if (inWater)
+        {
+            accelMultiplier = 0.5f;
+        }
+        if (!isGrounded)
+        {
+            deccelMultiplier = 0.5f;
+        }
+        else if (groundCollision != null)
+        {
+            if (groundCollision.tag == "Ice")
+            {
+                deccelMultiplier = 0.2f;
+            }
+            else
+            {
+                deccelMultiplier = 1.0f;
+            }
+        }
     }
 }
