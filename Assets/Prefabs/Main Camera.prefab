@@ -754,6 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebad93749563ee741af0c87d99c9bdb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canPause: 1
   transition: {fileID: 0}
   musicAudio: {fileID: 2957778578628550470}
   PauseMenu: {fileID: 1970379625610287867}
@@ -764,6 +765,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1651320730594600337}
     m_Modifications:
+    - target: {fileID: 5823266073718645384, guid: b535391668cd97c4a8e58243011cd104, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1671973375314913188}
+    - target: {fileID: 5823266073718645384, guid: b535391668cd97c4a8e58243011cd104, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 5823266074609537828, guid: b535391668cd97c4a8e58243011cd104, type: 3}
       propertyPath: m_Name
       value: PauseMenu
@@ -851,6 +860,14 @@ PrefabInstance:
     - target: {fileID: 5823266074609537829, guid: b535391668cd97c4a8e58243011cd104, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823266075226912167, guid: b535391668cd97c4a8e58243011cd104, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1671973375314913188}
+    - target: {fileID: 5823266075226912167, guid: b535391668cd97c4a8e58243011cd104, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b535391668cd97c4a8e58243011cd104, type: 3}
