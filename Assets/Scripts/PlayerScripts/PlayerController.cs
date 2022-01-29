@@ -56,9 +56,9 @@ public class PlayerController : MonoBehaviour
 
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        playerAnimator.SetBool("Grounded", isGrounded);
+    
         inWater = false;
-
-        
     }
 
     // Flips the Sprite based on direction of momentum.
@@ -133,6 +133,7 @@ public class PlayerController : MonoBehaviour
             playerAnimator.speed = 0;
             return;
         }
+        playerAnimator.SetFloat("Vertical Speed", playerBody.velocity.y);
         playerAnimator.speed = 1;
         playerAnimator.SetFloat("Speed", Mathf.Abs(playerBody.velocity.x));
     }
