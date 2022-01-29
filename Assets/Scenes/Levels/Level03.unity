@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6107654746389936818, guid: 7288bf5ab3bebad408adb49acc19f58a, type: 3}
+      propertyPath: summer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6527070140256729727, guid: 7288bf5ab3bebad408adb49acc19f58a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -209,6 +213,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1651320730594600337, guid: 7288bf5ab3bebad408adb49acc19f58a, type: 3}
   m_PrefabInstance: {fileID: 21688299}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &178510759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178510761}
+  - component: {fileID: 178510760}
+  m_Layer: 0
+  m_Name: Inviswall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &178510760
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178510759}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3}
+  m_EdgeRadius: 0
+--- !u!4 &178510761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178510759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.54, y: 0.466, z: -1.8243703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &331751774
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +4864,8 @@ GameObject:
   - component: {fileID: 660442322}
   - component: {fileID: 660442324}
   - component: {fileID: 660442323}
+  - component: {fileID: 660442326}
+  - component: {fileID: 660442325}
   m_Layer: 6
   m_Name: WaterTilemap
   m_TagString: Untagged
@@ -5088,6 +5151,38 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &660442325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660442321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c89bd0faa9b5140ba5458e5d0749f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionObject: {fileID: 660442326}
+  SolidInWinter: 1
+  CurrentSeason: {fileID: 0}
+  inside: []
+--- !u!19719996 &660442326
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660442321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &774603878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5703,6 +5798,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+--- !u!1 &1456835657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1456835659}
+  - component: {fileID: 1456835658}
+  m_Layer: 0
+  m_Name: Inviswall (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1456835658
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456835657}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3}
+  m_EdgeRadius: 0
+--- !u!4 &1456835659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456835657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.952, y: 0.466, z: -1.8243703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1476010630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5850,6 +6002,7 @@ GameObject:
   - component: {fileID: 1715558244}
   - component: {fileID: 1715558243}
   - component: {fileID: 1715558246}
+  - component: {fileID: 1715558247}
   m_Layer: 6
   m_Name: WaterTilemapWINTER
   m_TagString: Ice
@@ -6164,6 +6317,22 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &1715558247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715558241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c89bd0faa9b5140ba5458e5d0749f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionObject: {fileID: 1715558246}
+  SolidInWinter: 1
+  CurrentSeason: {fileID: 0}
+  inside: []
 --- !u!1 &1778885589
 GameObject:
   m_ObjectHideFlags: 0
