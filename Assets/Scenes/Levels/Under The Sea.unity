@@ -797,28 +797,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d036af9d2a3f15b459f3e6371327c1fd, type: 3}
---- !u!1001 &1027375846
+--- !u!1001 &937587609
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4435181817233237796, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4435181817233237797, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4435181817233237797, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.0001874
       objectReference: {fileID: 0}
     - target: {fileID: 4435181817233237797, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.7116265
       objectReference: {fileID: 0}
     - target: {fileID: 4435181817233237797, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -856,13 +852,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player(AnimAdded)
       objectReference: {fileID: 0}
-    - target: {fileID: 7140746452737939980, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
-      propertyPath: summer
+    - target: {fileID: 7876645136616135361, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7876645136616135361, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743554355031825363, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
@@ -879,7 +879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774103926850549471, guid: 7936abfd7a197b24cbc3e991e9d97a27, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774103926850549471, guid: 7936abfd7a197b24cbc3e991e9d97a27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3054,7 +3054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662806940}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.47, y: 2.13, z: 11.054325}
+  m_LocalPosition: {x: 13.4, y: 2.13, z: 11.054325}
   m_LocalScale: {x: 48, y: 30, z: 1}
   m_Children:
   - {fileID: 1787242170}
