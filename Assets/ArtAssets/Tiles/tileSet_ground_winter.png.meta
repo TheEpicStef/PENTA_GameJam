@@ -292,8 +292,8 @@ TextureImporter:
       name: tileSet_ground_winter_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 640
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -313,7 +313,7 @@ TextureImporter:
       name: tileSet_ground_winter_5
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 384
         width: 128
         height: 128
@@ -334,7 +334,7 @@ TextureImporter:
       name: tileSet_ground_winter_6
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 384
         width: 128
         height: 128
@@ -355,7 +355,7 @@ TextureImporter:
       name: tileSet_ground_winter_7
       rect:
         serializedVersion: 2
-        x: 384
+        x: 256
         y: 384
         width: 128
         height: 128
@@ -376,7 +376,7 @@ TextureImporter:
       name: tileSet_ground_winter_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 384
         y: 384
         width: 128
         height: 128
@@ -397,8 +397,8 @@ TextureImporter:
       name: tileSet_ground_winter_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 512
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -418,7 +418,7 @@ TextureImporter:
       name: tileSet_ground_winter_10
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 256
         width: 128
         height: 128
@@ -439,7 +439,7 @@ TextureImporter:
       name: tileSet_ground_winter_11
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 256
         width: 128
         height: 128
@@ -460,7 +460,7 @@ TextureImporter:
       name: tileSet_ground_winter_12
       rect:
         serializedVersion: 2
-        x: 384
+        x: 256
         y: 256
         width: 128
         height: 128
@@ -481,7 +481,7 @@ TextureImporter:
       name: tileSet_ground_winter_13
       rect:
         serializedVersion: 2
-        x: 512
+        x: 384
         y: 256
         width: 128
         height: 128
@@ -502,7 +502,7 @@ TextureImporter:
       name: tileSet_ground_winter_14
       rect:
         serializedVersion: 2
-        x: 640
+        x: 512
         y: 256
         width: 128
         height: 128
@@ -523,8 +523,8 @@ TextureImporter:
       name: tileSet_ground_winter_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 640
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -544,7 +544,7 @@ TextureImporter:
       name: tileSet_ground_winter_16
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 128
         width: 128
         height: 128
@@ -565,7 +565,7 @@ TextureImporter:
       name: tileSet_ground_winter_17
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 128
         width: 128
         height: 128
@@ -586,7 +586,7 @@ TextureImporter:
       name: tileSet_ground_winter_18
       rect:
         serializedVersion: 2
-        x: 384
+        x: 256
         y: 128
         width: 128
         height: 128
@@ -607,7 +607,7 @@ TextureImporter:
       name: tileSet_ground_winter_19
       rect:
         serializedVersion: 2
-        x: 512
+        x: 384
         y: 128
         width: 128
         height: 128
@@ -628,7 +628,7 @@ TextureImporter:
       name: tileSet_ground_winter_20
       rect:
         serializedVersion: 2
-        x: 640
+        x: 512
         y: 128
         width: 128
         height: 128
@@ -649,8 +649,8 @@ TextureImporter:
       name: tileSet_ground_winter_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 640
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -670,7 +670,7 @@ TextureImporter:
       name: tileSet_ground_winter_22
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 0
         width: 128
         height: 128
@@ -691,7 +691,7 @@ TextureImporter:
       name: tileSet_ground_winter_23
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 0
         width: 128
         height: 128
@@ -712,7 +712,7 @@ TextureImporter:
       name: tileSet_ground_winter_24
       rect:
         serializedVersion: 2
-        x: 384
+        x: 256
         y: 0
         width: 128
         height: 128
@@ -733,7 +733,7 @@ TextureImporter:
       name: tileSet_ground_winter_25
       rect:
         serializedVersion: 2
-        x: 512
+        x: 384
         y: 0
         width: 128
         height: 128
@@ -754,7 +754,7 @@ TextureImporter:
       name: tileSet_ground_winter_26
       rect:
         serializedVersion: 2
-        x: 640
+        x: 512
         y: 0
         width: 128
         height: 128
@@ -767,6 +767,27 @@ TextureImporter:
       bones: []
       spriteID: ec61ce06b71461670800000000000000
       internalID: 8509060544125998798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSet_ground_winter_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980b5bc5edd04ff20800000000000000
+      internalID: 3455402062789324937
       vertices: []
       indices: 
       edges: []
