@@ -34,8 +34,15 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public float jumpDelay = 2.0f;
+    public float jumpTimer = 0.0f;
+
     // Set to stop jumping when in water.
     public bool inWater = false;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip jumpAudio;
 
     void Start()
     {
@@ -45,6 +52,8 @@ public class PlayerController : MonoBehaviour
         playerSprite = this.GetComponent<SpriteRenderer>();
 
         playerAnimator = this.GetComponent<Animator>();
+
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -123,6 +132,7 @@ public class PlayerController : MonoBehaviour
         {
             playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
             playerAnimator.SetTrigger("Jump");
+            audioSource.PlayOneShot(jumpAudio);
         }
     }
     
