@@ -26,6 +26,9 @@ public class LevelTransition : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
+        PauseGame pause = FindObjectOfType<PauseGame>();
+        pause.canPause = false;
+
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(_levelName);
