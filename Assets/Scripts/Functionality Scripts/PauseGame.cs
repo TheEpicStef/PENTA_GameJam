@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour
 {
+    public bool canPause = true;
     bool isPaused = false;
 
     public LevelTransition transition;
@@ -19,9 +20,10 @@ public class PauseGame : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (Input.GetKeyDown(KeyCode.P))
         {
+            if (!canPause) return;
             Time.timeScale = !isPaused ? 0 : 1;
             isPaused = !isPaused;
             if (isPaused)
