@@ -391,6 +391,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6107654746389936818, guid: 7288bf5ab3bebad408adb49acc19f58a, type: 3}
+      propertyPath: summer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6527070140256729727, guid: 7288bf5ab3bebad408adb49acc19f58a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -500,6 +504,7 @@ GameObject:
   - component: {fileID: 419413630}
   - component: {fileID: 419413629}
   - component: {fileID: 419413628}
+  - component: {fileID: 419413632}
   m_Layer: 6
   m_Name: GroundTilemapWINTER
   m_TagString: Untagged
@@ -2724,6 +2729,21 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &419413632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419413626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fe7196771748941bd082d27aaffdb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionObject: {fileID: 419413629}
+  SolidInWinter: 1
+  CurrentSeason: {fileID: 0}
 --- !u!1001 &484220172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3022,9 +3042,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1387519828}
+  - {fileID: 231674358}
   - {fileID: 770810003}
   - {fileID: 484220173}
-  - {fileID: 231674358}
   m_Father: {fileID: 1502344771}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3351,6 +3371,7 @@ GameObject:
   - component: {fileID: 1923402809}
   - component: {fileID: 1923402808}
   - component: {fileID: 1923402807}
+  - component: {fileID: 1923402810}
   m_Layer: 6
   m_Name: GroundTilemap
   m_TagString: Untagged
@@ -5512,6 +5533,21 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1923402810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923402805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fe7196771748941bd082d27aaffdb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionObject: {fileID: 1923402807}
+  SolidInWinter: 0
+  CurrentSeason: {fileID: 0}
 --- !u!1001 &1928161813
 PrefabInstance:
   m_ObjectHideFlags: 0
