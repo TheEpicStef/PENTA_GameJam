@@ -6,27 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Levels/2 pools.unity
-    guid: b552debb569d38348a718c927d84e29d
-  - enabled: 1
-    path: Assets/Scenes/Levels/Long Run.unity
-    guid: 4001e20792bcceb4c9e4ff42feb0099b
-  - enabled: 1
-    path: Assets/Scenes/Levels/Under The Sea.unity
-    guid: eb0b724ccc135c44b89b59b04984195b
-  - enabled: 1
-    path: Assets/Scenes/Levels/There and Back.unity
-    guid: 5629710c9450675429a222d44c39e11f
-  - enabled: 1
-    path: Assets/Scenes/Levels/Balanceing Act.unity
-    guid: 2b8bd521862f9b344ac1fb1afe7cfa20
-  - enabled: 1
-    path: Assets/Scenes/Levels/StopDropAndRoll.unity
-    guid: 56ba8663175c95d46ad6b63ce295eade
-  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Stef_Testing.unity
     guid: 73067f951b9b02a428461c014e41c1a9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level01.unity
+    guid: 44a837650e55df04fbbbc2747a93f934
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level02.unity
+    guid: a7d7584e7c39f9e4684a83150aa55ee0
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level03.unity
+    guid: 310c5c76cf35bb144ae1e62f39db4ee3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level04.unity
+    guid: b15556db9fef60747901275a0d2c46c1
   m_configObjects: {}
