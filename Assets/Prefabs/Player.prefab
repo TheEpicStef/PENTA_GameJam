@@ -473,7 +473,7 @@ MonoBehaviour:
   MaskTransform: {fileID: 6565200273655003490}
   transitionDuration: 0.1
   beatsPerSeason: 8
-  musicTempo: 115
+  musicTempo: 120
   changeTimer: {fileID: 5344602671731596079}
 --- !u!82 &2670204100360321103
 AudioSource:
@@ -485,7 +485,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 68a93bcad9a983c47aa42ccab9a65f2c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e3e6c44c1ed96c6499f47f4dbc28c788, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.174
   m_Pitch: 1
