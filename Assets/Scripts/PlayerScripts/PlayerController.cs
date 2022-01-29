@@ -70,6 +70,8 @@ public class PlayerController : MonoBehaviour
     // Handles the Movement
     void Movement()
     {
+        if (playerBody.bodyType == RigidbodyType2D.Static) return;
+
         // Handle Left and Right input with acceleration
         // Setup to just stop if both keys are pressed
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
@@ -120,17 +122,18 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
             playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
+            playerAnimator.SetTrigger("Jump");
         }
     }
     
     void AnimationHandler()
     {
-        playerAnimator.speed = playerBody.bodyType == RigidbodyType2D.Static? 0 : 1;
         if (playerBody.bodyType == RigidbodyType2D.Static)
         {
+            playerAnimator.speed = 0;
             return;
         }
-
+        playerAnimator.speed = 1;
         playerAnimator.SetFloat("Speed", Mathf.Abs(playerBody.velocity.x));
     }
 
@@ -138,6 +141,7 @@ public class PlayerController : MonoBehaviour
     void FrictionChange()
     {
         Collider2D groundCollision = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        // Handles the Water acceleration multiplier
         if (inWater)
         {
             accelMultiplier = 0.5f;
@@ -146,6 +150,8 @@ public class PlayerController : MonoBehaviour
         {
             accelMultiplier = 1.0f;
         }
+
+
         if (!isGrounded)
         {
             deccelMultiplier = 0.5f;
