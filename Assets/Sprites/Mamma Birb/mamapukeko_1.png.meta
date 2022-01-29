@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: ce81e2cf516727d4392794ab12efc429
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6409603778809784594
+    second: mamapukeko_1_0
+  - first:
+      213: -3821211108888763174
+    second: mamapukeko_1_1
+  - first:
+      213: 5878782414463119109
+    second: mamapukeko_1_2
+  - first:
+      213: -5008238593049369479
+    second: mamapukeko_1_3
+  - first:
+      213: 5101266057593236445
+    second: mamapukeko_1_4
+  - first:
+      213: 4072971933974783219
+    second: mamapukeko_1_5
+  - first:
+      213: 609989861211365305
+    second: mamapukeko_1_6
+  - first:
+      213: -8891681772422124502
+    second: mamapukeko_1_7
+  - first:
+      213: 7767257978513083793
+    second: mamapukeko_1_8
+  - first:
+      213: -4691745230236714333
+    second: mamapukeko_1_9
+  - first:
+      213: 4157556818046441068
+    second: mamapukeko_1_10
+  - first:
+      213: 5738498027202395882
+    second: mamapukeko_1_11
+  - first:
+      213: -8104090252813683513
+    second: mamapukeko_1_12
+  - first:
+      213: 273175791354238746
+    second: mamapukeko_1_13
+  - first:
+      213: 4805048068010560750
+    second: mamapukeko_1_14
+  - first:
+      213: 7783229023939343894
+    second: mamapukeko_1_15
+  - first:
+      213: 3090171722691304172
+    second: mamapukeko_1_16
+  - first:
+      213: 3177849282630161205
+    second: mamapukeko_1_17
+  - first:
+      213: 25590082000195679
+    second: mamapukeko_1_18
+  - first:
+      213: 5311825444416755356
+    second: mamapukeko_1_19
+  - first:
+      213: -7188849769765624146
+    second: mamapukeko_1_20
+  - first:
+      213: -7749392425492212298
+    second: mamapukeko_1_21
+  - first:
+      213: -1876445382720370036
+    second: mamapukeko_1_22
+  - first:
+      213: 1055307620395173373
+    second: mamapukeko_1_23
+  - first:
+      213: 2439326567852237775
+    second: mamapukeko_1_24
+  - first:
+      213: 5885805622872588564
+    second: mamapukeko_1_25
+  - first:
+      213: -165994807535352949
+    second: mamapukeko_1_26
+  - first:
+      213: 5994075032109268323
+    second: mamapukeko_1_27
+  - first:
+      213: -6205125350907146522
+    second: mamapukeko_1_28
+  - first:
+      213: 8179594551677580836
+    second: mamapukeko_1_29
+  - first:
+      213: 5735020830050951186
+    second: mamapukeko_1_30
+  - first:
+      213: -3534564424550308839
+    second: mamapukeko_1_31
+  - first:
+      213: -4363512626541487303
+    second: mamapukeko_1_32
+  - first:
+      213: 6564222978263998176
+    second: mamapukeko_1_33
+  - first:
+      213: 2714605671755136180
+    second: mamapukeko_1_34
+  - first:
+      213: -2520271534971171315
+    second: mamapukeko_1_35
+  - first:
+      213: 1189134697161711699
+    second: mamapukeko_1_36
+  - first:
+      213: 5214969967541669767
+    second: mamapukeko_1_37
+  - first:
+      213: -2690035515049835617
+    second: mamapukeko_1_38
+  - first:
+      213: 5083910131790360758
+    second: mamapukeko_1_39
+  - first:
+      213: 1929054835556744148
+    second: mamapukeko_1_40
+  - first:
+      213: 947228609535064309
+    second: mamapukeko_1_41
+  - first:
+      213: 4089787978446170495
+    second: mamapukeko_1_42
+  - first:
+      213: 6118517226118735347
+    second: mamapukeko_1_43
+  - first:
+      213: 5688323016522391014
+    second: mamapukeko_1_44
+  - first:
+      213: -6819589627033759973
+    second: mamapukeko_1_45
+  - first:
+      213: 7975954679624442243
+    second: mamapukeko_1_46
+  - first:
+      213: 7973106589434235911
+    second: mamapukeko_1_47
+  - first:
+      213: -2310844383200746925
+    second: mamapukeko_1_48
+  - first:
+      213: -6047673380427132660
+    second: mamapukeko_1_49
+  - first:
+      213: -4933479164079258367
+    second: mamapukeko_1_50
+  - first:
+      213: -4819592173759821205
+    second: mamapukeko_1_51
+  - first:
+      213: 253504754312661971
+    second: mamapukeko_1_52
+  - first:
+      213: 2580932924921094737
+    second: mamapukeko_1_53
+  - first:
+      213: 1977855505836039869
+    second: mamapukeko_1_54
+  - first:
+      213: -9082006671698238945
+    second: mamapukeko_1_55
+  - first:
+      213: -1070471502860906860
+    second: mamapukeko_1_56
+  - first:
+      213: -3860669927537135604
+    second: mamapukeko_1_57
+  - first:
+      213: 8282844993492148932
+    second: mamapukeko_1_58
+  - first:
+      213: 182257133180214973
+    second: mamapukeko_1_59
+  - first:
+      213: -8206173391993016263
+    second: mamapukeko_1_60
+  - first:
+      213: 5025915362274392474
+    second: mamapukeko_1_61
+  - first:
+      213: -2137060756057605837
+    second: mamapukeko_1_62
+  - first:
+      213: -4041950691440395426
+    second: mamapukeko_1_63
+  - first:
+      213: -8049037637336516590
+    second: mamapukeko_1_64
+  - first:
+      213: -2536659570927720595
+    second: mamapukeko_1_65
+  - first:
+      213: 7818880455417271590
+    second: mamapukeko_1_66
+  - first:
+      213: 5041907988090192940
+    second: mamapukeko_1_67
+  - first:
+      213: 7849625418835364638
+    second: mamapukeko_1_68
+  - first:
+      213: -7318002604581651139
+    second: mamapukeko_1_69
+  - first:
+      213: -7757612941734731997
+    second: mamapukeko_1_70
+  - first:
+      213: 8446038570771735258
+    second: mamapukeko_1_71
+  - first:
+      213: 3038756543856641749
+    second: mamapukeko_1_72
+  - first:
+      213: 3251760652700736815
+    second: mamapukeko_1_73
+  - first:
+      213: 5765375624030879090
+    second: mamapukeko_1_74
+  - first:
+      213: 3346415190610999556
+    second: mamapukeko_1_75
+  - first:
+      213: -1215117168853357962
+    second: mamapukeko_1_76
+  - first:
+      213: -8150056392867696887
+    second: mamapukeko_1_77
+  - first:
+      213: -7502074838529068165
+    second: mamapukeko_1_78
+  - first:
+      213: 7935687040047043492
+    second: mamapukeko_1_79
+  - first:
+      213: -1195837682767583715
+    second: mamapukeko_1_80
+  - first:
+      213: -3274106782448343718
+    second: mamapukeko_1_81
+  - first:
+      213: -22429888077677526
+    second: mamapukeko_1_82
+  - first:
+      213: 2856869506959214227
+    second: mamapukeko_1_83
+  - first:
+      213: 2691733548611055815
+    second: mamapukeko_1_84
+  - first:
+      213: -6873273117313762787
+    second: mamapukeko_1_85
+  - first:
+      213: -5114928737683017123
+    second: mamapukeko_1_86
+  - first:
+      213: -2166448740784970349
+    second: mamapukeko_1_87
+  - first:
+      213: 4426687258667813698
+    second: mamapukeko_1_88
+  - first:
+      213: -5159526203183610542
+    second: mamapukeko_1_89
+  - first:
+      213: -3250241569020748634
+    second: mamapukeko_1_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 173
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mamapukeko_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21965f26dac73f850800000000000000
+      internalID: 6409603778809784594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4a8eafdb458fac0800000000000000
+      internalID: -3821211108888763174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f23e57571a59150800000000000000
+      internalID: 5878782414463119109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974e3eec8892f7ab0800000000000000
+      internalID: -5008238593049369479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb2a93a3765bc640800000000000000
+      internalID: 5101266057593236445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_5
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4e3b8f46a168830800000000000000
+      internalID: 4072971933974783219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_6
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfd7120c8e177800800000000000000
+      internalID: 609989861211365305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_7
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca6f2c9866a9480800000000000000
+      internalID: -8891681772422124502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d47109af7dacb60800000000000000
+      internalID: 7767257978513083793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_9
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa7b1f229293eeb0800000000000000
+      internalID: -4691745230236714333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_10
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c665929f5eb92b930800000000000000
+      internalID: 4157556818046441068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_11
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeebda74d8d33af40800000000000000
+      internalID: 5738498027202395882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_12
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b5553adc788f80800000000000000
+      internalID: -8104090252813683513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_13
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17d7e45fe38ac300800000000000000
+      internalID: 273175791354238746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_14
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec427672c5fea240800000000000000
+      internalID: 4805048068010560750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_15
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163a695f85930c60800000000000000
+      internalID: 7783229023939343894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_16
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cead8f13fce72ea20800000000000000
+      internalID: 3090171722691304172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_17
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53396e8e51df91c20800000000000000
+      internalID: 3177849282630161205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_18
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5015634b0aea5000800000000000000
+      internalID: 25590082000195679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_19
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969753391567b940800000000000000
+      internalID: 5311825444416755356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_20
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6a879f8331c3c90800000000000000
+      internalID: -7188849769765624146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_21
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51f65a5a0a47490800000000000000
+      internalID: -7749392425492212298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_22
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ac782cdd685f5e0800000000000000
+      internalID: -1876445382720370036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_23
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ca6280b435ae00800000000000000
+      internalID: 1055307620395173373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_24
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc36100e69a3ad120800000000000000
+      internalID: 2439326567852237775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_25
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411415897059ea150800000000000000
+      internalID: 5885805622872588564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_26
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83cb4e1a9442bdf0800000000000000
+      internalID: -165994807535352949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_27
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d39e5db7b3f2350800000000000000
+      internalID: 5994075032109268323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_28
+      rect:
+        serializedVersion: 2
+        x: 4844
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee88689e57f2e9a0800000000000000
+      internalID: -6205125350907146522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_29
+      rect:
+        serializedVersion: 2
+        x: 5017
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426767b48e1c38170800000000000000
+      internalID: 8179594551677580836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_30
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21027aa3f03e69f40800000000000000
+      internalID: 5735020830050951186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_31
+      rect:
+        serializedVersion: 2
+        x: 5363
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91422fef164b2fec0800000000000000
+      internalID: -3534564424550308839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_32
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b10129260b173c0800000000000000
+      internalID: -4363512626541487303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_33
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed1ed150ec81b50800000000000000
+      internalID: 6564222978263998176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_34
+      rect:
+        serializedVersion: 2
+        x: 5882
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb932d9773ca520800000000000000
+      internalID: 2714605671755136180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_35
+      rect:
+        serializedVersion: 2
+        x: 6055
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ec3845462360dd0800000000000000
+      internalID: -2520271534971171315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_36
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506a6ee4b7a08010800000000000000
+      internalID: 1189134697161711699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_37
+      rect:
+        serializedVersion: 2
+        x: 6401
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fc6ad2e8b4f5840800000000000000
+      internalID: 5214969967541669767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_38
+      rect:
+        serializedVersion: 2
+        x: 6574
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93054493f21baad0800000000000000
+      internalID: -2690035515049835617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_39
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0bf53445dad8640800000000000000
+      internalID: 5083910131790360758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_40
+      rect:
+        serializedVersion: 2
+        x: 6920
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbfb91072165ca10800000000000000
+      internalID: 1929054835556744148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_41
+      rect:
+        serializedVersion: 2
+        x: 7093
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8bc68d66b352d00800000000000000
+      internalID: 947228609535064309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_42
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7962fd6f78d1c830800000000000000
+      internalID: 4089787978446170495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_43
+      rect:
+        serializedVersion: 2
+        x: 7439
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f56ae6fff659e450800000000000000
+      internalID: 6118517226118735347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_44
+      rect:
+        serializedVersion: 2
+        x: 7612
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edde7f35abf0fe40800000000000000
+      internalID: 5688323016522391014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_45
+      rect:
+        serializedVersion: 2
+        x: 7785
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc6bead53fb51a0800000000000000
+      internalID: -6819589627033759973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_46
+      rect:
+        serializedVersion: 2
+        x: 7958
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38121afc58840be60800000000000000
+      internalID: 7975954679624442243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_47
+      rect:
+        serializedVersion: 2
+        x: 8131
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ccd83233a26ae60800000000000000
+      internalID: 7973106589434235911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_48
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352ec10e64b3eefd0800000000000000
+      internalID: -2310844383200746925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_49
+      rect:
+        serializedVersion: 2
+        x: 8477
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c011e0a3a19521ca0800000000000000
+      internalID: -6047673380427132660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_50
+      rect:
+        serializedVersion: 2
+        x: 8650
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c346c6d2c88bb0800000000000000
+      internalID: -4933479164079258367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_51
+      rect:
+        serializedVersion: 2
+        x: 8823
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a0bc8047e5d1db0800000000000000
+      internalID: -4819592173759821205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_52
+      rect:
+        serializedVersion: 2
+        x: 8996
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbcdad1b31a48300800000000000000
+      internalID: 253504754312661971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_53
+      rect:
+        serializedVersion: 2
+        x: 9169
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152280322d051d320800000000000000
+      internalID: 2580932924921094737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_54
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe586a7a11c27b10800000000000000
+      internalID: 1977855505836039869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_55
+      rect:
+        serializedVersion: 2
+        x: 9515
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12e2b5fc0b36f180800000000000000
+      internalID: -9082006671698238945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_56
+      rect:
+        serializedVersion: 2
+        x: 9688
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e0cc9f6dbe421f0800000000000000
+      internalID: -1070471502860906860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_57
+      rect:
+        serializedVersion: 2
+        x: 9861
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00bd16d7252c6ac0800000000000000
+      internalID: -3860669927537135604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_58
+      rect:
+        serializedVersion: 2
+        x: 10034
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e8be13a392f270800000000000000
+      internalID: 8282844993492148932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_59
+      rect:
+        serializedVersion: 2
+        x: 10207
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbedcf0a5e1878200800000000000000
+      internalID: 182257133180214973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_60
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307ef437c0dd1e80800000000000000
+      internalID: -8206173391993016263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_61
+      rect:
+        serializedVersion: 2
+        x: 10553
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a993b8fb463afb540800000000000000
+      internalID: 5025915362274392474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_62
+      rect:
+        serializedVersion: 2
+        x: 10726
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33932c3a092a752e0800000000000000
+      internalID: -2137060756057605837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_63
+      rect:
+        serializedVersion: 2
+        x: 10899
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bfc05e24b18e7c0800000000000000
+      internalID: -4041950691440395426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_64
+      rect:
+        serializedVersion: 2
+        x: 11072
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218beca1ae21c4090800000000000000
+      internalID: -8049037637336516590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_65
+      rect:
+        serializedVersion: 2
+        x: 11245
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6722ce5f89fbccd0800000000000000
+      internalID: -2536659570927720595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_66
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6251466195e328c60800000000000000
+      internalID: 7818880455417271590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_67
+      rect:
+        serializedVersion: 2
+        x: 11591
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24025c1a9478f540800000000000000
+      internalID: 5041907988090192940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_68
+      rect:
+        serializedVersion: 2
+        x: 11764
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b0f85bab87fec60800000000000000
+      internalID: 7849625418835364638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_69
+      rect:
+        serializedVersion: 2
+        x: 11937
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df680576b317a90800000000000000
+      internalID: -7318002604581651139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_70
+      rect:
+        serializedVersion: 2
+        x: 12110
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f9dee812c675490800000000000000
+      internalID: -7757612941734731997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_71
+      rect:
+        serializedVersion: 2
+        x: 12283
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2e812c45b563570800000000000000
+      internalID: 8446038570771735258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_72
+      rect:
+        serializedVersion: 2
+        x: 12456
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d608730af4db2a20800000000000000
+      internalID: 3038756543856641749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_73
+      rect:
+        serializedVersion: 2
+        x: 12629
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dd1d6c513902d20800000000000000
+      internalID: 3251760652700736815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_74
+      rect:
+        serializedVersion: 2
+        x: 12802
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d7e03759ab20050800000000000000
+      internalID: 5765375624030879090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_75
+      rect:
+        serializedVersion: 2
+        x: 12975
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409f653c2ead07e20800000000000000
+      internalID: 3346415190610999556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_76
+      rect:
+        serializedVersion: 2
+        x: 13148
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a64067f59032fe0800000000000000
+      internalID: -1215117168853357962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_77
+      rect:
+        serializedVersion: 2
+        x: 13321
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f28bb34ee25ee80800000000000000
+      internalID: -8150056392867696887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_78
+      rect:
+        serializedVersion: 2
+        x: 13494
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73341b9ea643e790800000000000000
+      internalID: -7502074838529068165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_79
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3dcae5159312e60800000000000000
+      internalID: 7935687040047043492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_80
+      rect:
+        serializedVersion: 2
+        x: 13840
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ac9d96f7876fe0800000000000000
+      internalID: -1195837682767583715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_81
+      rect:
+        serializedVersion: 2
+        x: 14013
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5528737a390092d0800000000000000
+      internalID: -3274106782448343718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_82
+      rect:
+        serializedVersion: 2
+        x: 14186
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c37c8b22050bff0800000000000000
+      internalID: -22429888077677526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_83
+      rect:
+        serializedVersion: 2
+        x: 14359
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39603f32ea3a5a720800000000000000
+      internalID: 2856869506959214227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_84
+      rect:
+        serializedVersion: 2
+        x: 14532
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0b6faa665fa5520800000000000000
+      internalID: 2691733548611055815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_85
+      rect:
+        serializedVersion: 2
+        x: 14705
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a7546148a3d90a0800000000000000
+      internalID: -6873273117313762787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_86
+      rect:
+        serializedVersion: 2
+        x: 14878
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5277f2c96f1409b0800000000000000
+      internalID: -5114928737683017123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_87
+      rect:
+        serializedVersion: 2
+        x: 15051
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956b6d395a3fe1e0800000000000000
+      internalID: -2166448740784970349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_88
+      rect:
+        serializedVersion: 2
+        x: 15224
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b84a0bb90ce6d30800000000000000
+      internalID: 4426687258667813698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_89
+      rect:
+        serializedVersion: 2
+        x: 15397
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255cbe9214ea568b0800000000000000
+      internalID: -5159526203183610542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mamapukeko_1_90
+      rect:
+        serializedVersion: 2
+        x: 15570
+        y: 0
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac5f447382d4e2d0800000000000000
+      internalID: -3250241569020748634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

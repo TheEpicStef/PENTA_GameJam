@@ -12,6 +12,7 @@ public class WorldTransition : MonoBehaviour
     public int beatsPerSeason;
     public int musicTempo = 115;
     public Slider changeTimer;
+    public AudioSource track;
 
     private float m_timer;
     private bool m_dragging;
@@ -22,6 +23,7 @@ public class WorldTransition : MonoBehaviour
     {
         changeTimer.maxValue = (float)beatsPerSeason / ((float)musicTempo/60.0f);
 
+       // SwapScene();
     }
 
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class WorldTransition : MonoBehaviour
         if(!summer)
         {
             //increasing the beat
-            m_timer += Time.deltaTime;
+            m_timer += Time.deltaTime * track.pitch;
 
             if (m_timer >= changeTimer.maxValue)
             {
@@ -46,7 +48,7 @@ public class WorldTransition : MonoBehaviour
         else
         {
             //decreasing the beat
-            m_timer -= Time.deltaTime;
+            m_timer -= Time.deltaTime * track.pitch;
 
             if (m_timer <0 )
             {

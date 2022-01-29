@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 public class EndLevel : MonoBehaviour
 {
     // The Trigger to load the next level
@@ -10,9 +8,13 @@ public class EndLevel : MonoBehaviour
     // The Level to load
     public string nextScene;
 
+    public LevelTransition transition;
+
     void Awake()
     {
         endTrigger = GetComponent<Collider2D>();
+
+        transition = FindObjectOfType<LevelTransition>();
     }
 
     // Will load the next scene
@@ -21,7 +23,7 @@ public class EndLevel : MonoBehaviour
     {
         if (collision.GetComponent<PlayerController>() != null)
         {
-            SceneManager.LoadScene(nextScene);
+            transition.DoTransition(nextScene);
         }
     }
 }
