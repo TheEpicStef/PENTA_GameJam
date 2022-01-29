@@ -300,6 +300,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3772723593959714001, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772723593959714001, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772723593959714001, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.09216577
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435181817233237796, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 184509271508132499, guid: 5e434e0dddb29c24388787977f32a0a8, type: 3}
     - target: {fileID: 4435181817233237797, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -344,6 +360,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4435181817233237799, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 93b9a6efb6776544b8c0a85986607e00, type: 2}
     - target: {fileID: 4435181817233237817, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_Name
       value: Player
