@@ -640,6 +640,10 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 2222415653945851896, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 3178937647115529850, guid: bd90e034f064b514e84beff8a701bfc4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

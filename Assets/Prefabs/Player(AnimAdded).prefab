@@ -720,9 +720,18 @@ MonoBehaviour:
   jumpTimer: 1.5
   hasJumped: 0
   inWater: 0
+  isFrozen: 0
   audioSource: {fileID: 0}
   jumpAudio: {fileID: 8300000, guid: 1ef921b3872364a41b1feaa8fc86a605, type: 3}
   jumpAudio2: {fileID: 8300000, guid: d48834b619afb984893b1b1834cf985b, type: 3}
+  landAudio: {fileID: 8300000, guid: 6169e4785098337429e5690eee3293f0, type: 3}
+  footstepAudio:
+  - {fileID: 8300000, guid: eaa6f05a9d24fd74bafd580ce18af621, type: 3}
+  - {fileID: 8300000, guid: 209bc1b2b0a64624282b19d1cb9f8795, type: 3}
+  - {fileID: 8300000, guid: 43bbef3c16d2eaf4893a61d0c4bf4095, type: 3}
+  - {fileID: 8300000, guid: e45b07efb57fc65419a0e3fa95767510, type: 3}
+  freezeAudio: {fileID: 8300000, guid: 303b2029a18f1bb41ae180d1ecdeda38, type: 3}
+  unfreezeAudio: {fileID: 8300000, guid: 697b73ae795b5f14fb17ff3a9f928835, type: 3}
 --- !u!70 &3772723593959714001
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -770,7 +779,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 1395482554195191853, guid: 1f14bc0e79deada4486b92adb5776b36, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1ef921b3872364a41b1feaa8fc86a605, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.01
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
