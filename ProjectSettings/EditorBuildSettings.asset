@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Balanceing Act.unity
     guid: 2b8bd521862f9b344ac1fb1afe7cfa20
   - enabled: 1
+    path: Assets/Scenes/Levels/StopDropAndRoll.unity
+    guid: 56ba8663175c95d46ad6b63ce295eade
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
