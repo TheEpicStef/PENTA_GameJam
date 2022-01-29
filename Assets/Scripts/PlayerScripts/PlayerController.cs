@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D playerBody;
 
+    public SpriteRenderer playerSprite;
+
     [Header("Movement")]
     // The Base Movement Speed
     public float speed = 0.0f;
@@ -33,6 +35,8 @@ public class PlayerController : MonoBehaviour
     {
         // Get the Players Rigidbody for Movement
         playerBody = this.GetComponent<Rigidbody2D>();
+
+        playerSprite = this.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -45,6 +49,12 @@ public class PlayerController : MonoBehaviour
         inWater = false;
     }
 
+    // Flips the Sprite based on direction of momentum.
+    void DirectionUpdate()
+    {
+        playerSprite.flipX = speed < 0;
+    }
+
     // Handles the Movement
     void Movement()
     {
@@ -53,10 +63,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
             speed = speed - (accelSpeed * Time.deltaTime);
+            DirectionUpdate();
         }
         else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
             speed = speed + (accelSpeed * Time.deltaTime);
+            DirectionUpdate();
         }
         // Deceleration system
         // Will decelerate towards 0. Friction Multiplier can be changed to swap how effective friction is.
@@ -90,7 +102,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Very Basic Jump Function
-    // Jumps if the player is grounded
+    // Jumps if the player is grounded and not in water
     void Jump()
     {
         if (isGrounded && !inWater)
