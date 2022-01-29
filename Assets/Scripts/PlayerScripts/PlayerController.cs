@@ -34,8 +34,9 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
-    public float jumpDelay = 2.0f;
+    public float jumpDelay = 1.0f;
     public float jumpTimer = 0.0f;
+    public bool hasJumped = false;
 
     // Set to stop jumping when in water.
     public bool inWater = false;
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip jumpAudio;
+    public AudioClip jumpAudio2;
 
     void Start()
     {
@@ -66,7 +68,8 @@ public class PlayerController : MonoBehaviour
         // Check if the player is ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimator.SetBool("Grounded", isGrounded);
-    
+
+        jumpTimer += Time.deltaTime;
         inWater = false;
     }
 
@@ -132,7 +135,20 @@ public class PlayerController : MonoBehaviour
         {
             playerBody.velocity = Vector2.up * (jumpSpeed * accelMultiplier);
             playerAnimator.SetTrigger("Jump");
-            audioSource.PlayOneShot(jumpAudio);
+
+            hasJumped = !(jumpTimer > jumpDelay);
+
+            if (!hasJumped)
+            {
+                audioSource.PlayOneShot(jumpAudio);
+                hasJumped = true;
+                jumpTimer = 0.0f;
+            }
+            else
+            {
+                jumpTimer = 0.0f;
+                audioSource.PlayOneShot(jumpAudio2);
+            }
         }
     }
     

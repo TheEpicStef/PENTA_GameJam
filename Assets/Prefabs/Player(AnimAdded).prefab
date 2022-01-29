@@ -716,11 +716,13 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  jumpDelay: 2
-  jumpTimer: 0
+  jumpDelay: 1.5
+  jumpTimer: 1.5
+  hasJumped: 0
   inWater: 0
   audioSource: {fileID: 0}
   jumpAudio: {fileID: 8300000, guid: 1ef921b3872364a41b1feaa8fc86a605, type: 3}
+  jumpAudio2: {fileID: 8300000, guid: d48834b619afb984893b1b1834cf985b, type: 3}
 --- !u!70 &3772723593959714001
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
