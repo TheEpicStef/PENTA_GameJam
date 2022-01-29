@@ -181,7 +181,7 @@ public class PlayerController : MonoBehaviour
         // Handles the Water acceleration multiplier
         if (inWater)
         {
-            accelMultiplier = 0.5f;
+            accelMultiplier = 0.9f;
         }
         else
         {
