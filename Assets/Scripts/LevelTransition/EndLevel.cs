@@ -8,13 +8,22 @@ public class EndLevel : MonoBehaviour
     // The Level to load
     public string nextScene;
 
+    bool hasWon = false;
+
     public LevelTransition transition;
+
+    public AudioSource birdSource;
+    public AudioClip winAudio;
+    public AudioSource playerSource;
+    public AudioClip playerWin;
 
     void Awake()
     {
         endTrigger = GetComponent<Collider2D>();
 
         transition = FindObjectOfType<LevelTransition>();
+
+        playerSource = FindObjectOfType<PlayerController>().GetComponent<AudioSource>();
     }
 
     // Will load the next scene
@@ -23,6 +32,12 @@ public class EndLevel : MonoBehaviour
     {
         if (collision.GetComponent<PlayerController>() != null)
         {
+            if (!hasWon)
+            {
+                birdSource.PlayOneShot(winAudio, 10.0f);
+                playerSource.PlayOneShot(playerWin, 7.0f);
+                hasWon = true;
+            }
             transition.DoTransition(nextScene);
         }
     }
