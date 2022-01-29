@@ -11,8 +11,10 @@ public class LevelTransition : MonoBehaviour
 
     public bool startTransition = false;
 
+    // Public function to handle the transition
     public void DoTransition(string _levelName)
     {
+        // Will only activate once.
         if (!startTransition)
         {
             StartCoroutine(LoadLevel(_levelName));
@@ -22,7 +24,6 @@ public class LevelTransition : MonoBehaviour
 
     IEnumerator LoadLevel(string _levelName)
     {
-        Debug.Log("Yes");
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
