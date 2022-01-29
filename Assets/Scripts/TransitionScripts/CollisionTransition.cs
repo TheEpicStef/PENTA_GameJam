@@ -31,6 +31,7 @@ public class CollisionTransition : MonoBehaviour
                 if (isPlayer != null)
                 {
                     isPlayer.inWater = true;
+                    isPlayer.UnFreeze();
                 }
             }
             CollisionObject.isTrigger = true;
@@ -47,6 +48,7 @@ public class CollisionTransition : MonoBehaviour
                 if(isPlayer != null)
                 {
                     isPlayer.inWater = true;
+                    isPlayer.Freeze();
                 }
             }
             CollisionObject.isTrigger = false;
