@@ -22,6 +22,7 @@ public class WorldTransition : MonoBehaviour
     {
         changeTimer.maxValue = (float)beatsPerSeason / ((float)musicTempo/60.0f);
 
+       // SwapScene();
     }
 
     // Update is called once per frame
