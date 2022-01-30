@@ -19,6 +19,8 @@ public class EndLevel : MonoBehaviour
 
     public GameObject transitionAudioThingy;
 
+    public AudioSource musicAudio;
+
     void Awake()
     {
         endTrigger = GetComponent<Collider2D>();
@@ -26,6 +28,11 @@ public class EndLevel : MonoBehaviour
         transition = FindObjectOfType<LevelTransition>();
 
         playerSource = FindObjectOfType<PlayerController>().GetComponent<AudioSource>();
+
+        musicAudio = Camera.main.GetComponentInChildren<AudioSource>();
+
+        musicAudio.volume = 0.0f;
+        StartCoroutine(FadeAudioSource.StartFade(musicAudio, 2.5f, 0.174f));
     }
 
     // Will load the next scene
@@ -45,6 +52,7 @@ public class EndLevel : MonoBehaviour
 
     IEnumerator transitionDelay()
     {
+        StartCoroutine(FadeAudioSource.StartFade(musicAudio, 1, musicAudio.volume / 10));
         yield return new WaitForSeconds(0.5f);
         playerSource.PlayOneShot(playerWin);
         yield return new WaitForSeconds(1.5f);
