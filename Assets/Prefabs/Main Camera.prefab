@@ -201,7 +201,7 @@ RectTransform:
   m_GameObject: {fileID: 1825457960669801423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 5089843107398830888}
   - {fileID: 3946929881076036612}
@@ -211,7 +211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -57.100006}
+  m_AnchoredPosition: {x: 0, y: -57.099976}
   m_SizeDelta: {x: 230, y: 92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5055726371696081958
@@ -502,7 +502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 17.6, y: 0}
+  m_AnchoredPosition: {x: 17.599998, y: 0}
   m_SizeDelta: {x: 0, y: -0.00000017881393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4404349484300727311
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0.729
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -758,6 +758,7 @@ MonoBehaviour:
   transition: {fileID: 0}
   musicAudio: {fileID: 2957778578628550470}
   PauseMenu: {fileID: 1970379625610287867}
+  PAUSEOVERRIDE: 0
 --- !u!1001 &5442692990370073055
 PrefabInstance:
   m_ObjectHideFlags: 0
