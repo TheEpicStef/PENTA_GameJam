@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionObject: {fileID: 24992998}
-  SolidInWinter: 0
+  SolidInWinter: 1
   CurrentSeason: {fileID: 0}
 --- !u!19719996 &24992998
 TilemapCollider2D:
@@ -3511,7 +3511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026602731715213143, guid: d036af9d2a3f15b459f3e6371327c1fd, type: 3}
       propertyPath: nextScene
-      value: Level04
+      value: EndGame
       objectReference: {fileID: 0}
     - target: {fileID: 3026602731934602315, guid: d036af9d2a3f15b459f3e6371327c1fd, type: 3}
       propertyPath: m_SortingOrder
