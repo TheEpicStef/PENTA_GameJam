@@ -57,7 +57,6 @@ public class EndLevel : MonoBehaviour
         playerSource.PlayOneShot(playerWin);
         yield return new WaitForSeconds(1.5f);
         Instantiate(transitionAudioThingy);
-        yield return new WaitForSeconds(0.4f);
         transition.DoTransition(nextScene);
     }
 }
