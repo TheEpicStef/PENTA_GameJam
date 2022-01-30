@@ -39,6 +39,11 @@ public class PauseGame : MonoBehaviour
                 musicAudio.UnPause();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            RestartLevel();
+        }
     }
 
     public void RestartLevel()
