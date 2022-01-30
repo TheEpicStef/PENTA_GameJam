@@ -262,11 +262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.46
+      value: 9.52
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.y
@@ -315,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b0cc08f7312f67f4aadc824f7705a41c, type: 3}
+      objectReference: {fileID: 21300000, guid: 7899b4e67e333d44f99831518d20a63d, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -2883,7 +2883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2932,7 +2932,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4d13964feaaffd74a9634c8f894bc519, type: 3}
+      objectReference: {fileID: 21300000, guid: 5dfb509ddc312a245917a78b5434e2ba, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -3191,11 +3191,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.64
+      value: -20.28
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3240,7 +3244,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4d13964feaaffd74a9634c8f894bc519, type: 3}
+      objectReference: {fileID: 21300000, guid: 5dfb509ddc312a245917a78b5434e2ba, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -3278,7 +3282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3286,7 +3290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.03
+      value: 3.92
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.z
