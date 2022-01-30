@@ -2473,7 +2473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.64
+      value: -19
       objectReference: {fileID: 0}
     - target: {fileID: 339760903382103598, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2518,7 +2518,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4d13964feaaffd74a9634c8f894bc519, type: 3}
+      objectReference: {fileID: 21300000, guid: 5dfb509ddc312a245917a78b5434e2ba, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -2685,7 +2685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153306299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.61, z: 0}
+  m_LocalPosition: {x: -1.23, y: 1.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1437114940}
@@ -2816,7 +2816,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b0cc08f7312f67f4aadc824f7705a41c, type: 3}
+      objectReference: {fileID: 21300000, guid: 7899b4e67e333d44f99831518d20a63d, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -2985,7 +2985,7 @@ PrefabInstance:
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4d13964feaaffd74a9634c8f894bc519, type: 3}
+      objectReference: {fileID: 21300000, guid: 5dfb509ddc312a245917a78b5434e2ba, type: 3}
     - target: {fileID: 339760904075611957, guid: f3feae2d416be5846ac097dad0c89073, type: 3}
       propertyPath: m_SortingOrder
       value: 3
