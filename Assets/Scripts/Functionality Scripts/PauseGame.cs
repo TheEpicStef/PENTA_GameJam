@@ -13,6 +13,8 @@ public class PauseGame : MonoBehaviour
 
     public GameObject PauseMenu;
 
+    public bool PAUSEOVERRIDE = false;
+
     private void Awake()
     {
         transition = FindObjectOfType<LevelTransition>();
@@ -21,6 +23,7 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PAUSEOVERRIDE) return;
         if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
         {
             if (!canPause) return;
