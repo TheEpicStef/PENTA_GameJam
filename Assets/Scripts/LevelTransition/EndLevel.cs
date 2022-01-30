@@ -32,7 +32,7 @@ public class EndLevel : MonoBehaviour
         musicAudio = Camera.main.GetComponentInChildren<AudioSource>();
 
         musicAudio.volume = 0.0f;
-        StartCoroutine(FadeAudioSource.StartFade(musicAudio, 5.0f, 0.174f));
+        StartCoroutine(FadeAudioSource.StartFade(musicAudio, 2.5f, 0.174f));
     }
 
     // Will load the next scene
