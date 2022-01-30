@@ -23,7 +23,7 @@ public class MotherAudio : MonoBehaviour
         if (cooTimer >= cooDelay)
         {
             cooTimer = 0.0f;
-            audioSource.PlayOneShot(motherAudio);
+            audioSource.PlayOneShot(motherAudio, 2.0f);
 
             GetRandomTime();
         }
