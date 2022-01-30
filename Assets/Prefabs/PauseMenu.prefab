@@ -597,6 +597,7 @@ GameObject:
   - component: {fileID: 5823266073718645386}
   - component: {fileID: 5823266073718645385}
   - component: {fileID: 5823266073718645384}
+  - component: {fileID: 41629895951520524}
   m_Layer: 0
   m_Name: Menu Button
   m_TagString: Untagged
@@ -718,6 +719,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 41629895951520524}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: PressSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &41629895951520524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823266073718645382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cebee8fe37d22448517f9e4e3b9ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 17f3eb3f36b9758428029b88a1cab34d, type: 3}
+  mixer: {fileID: 24100000, guid: 1f14bc0e79deada4486b92adb5776b36, type: 2}
 --- !u!1 &5823266074609537828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1128,7 @@ GameObject:
   - component: {fileID: 5823266075226912169}
   - component: {fileID: 5823266075226912168}
   - component: {fileID: 5823266075226912167}
+  - component: {fileID: 8619590891395324535}
   m_Layer: 0
   m_Name: RestartButton
   m_TagString: Untagged
@@ -1221,6 +1250,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8619590891395324535}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: PressSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8619590891395324535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823266075226912165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cebee8fe37d22448517f9e4e3b9ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 17f3eb3f36b9758428029b88a1cab34d, type: 3}
+  mixer: {fileID: 24100000, guid: 1f14bc0e79deada4486b92adb5776b36, type: 2}
 --- !u!1 &5823266075344605667
 GameObject:
   m_ObjectHideFlags: 0
