@@ -16,6 +16,9 @@ public class TransitionAllowPause : MonoBehaviour
     }
     public void setPause()
     {
-        pauseGame.canPause = true;
+        if(pauseGame != null)
+        {
+            pauseGame.canPause = true;
+        }
     }
 }
